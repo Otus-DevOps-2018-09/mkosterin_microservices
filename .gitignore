@@ -14,4 +14,5 @@ vault.key
 .molecule
 .cache
 .pytest_cache
+docker-monolith/infra/packer/variables.json
 
