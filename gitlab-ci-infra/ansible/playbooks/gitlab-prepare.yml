@@ -1,0 +1,18 @@
+---
+- name: Create directories for dockers volumes
+  hosts: all
+  become: true
+  tasks:
+    - name: Create /srv/gitlab/config
+      file:
+        path: /srv/gitlab/config
+        state: directory
+    - name: Create /srv/gitlab/logs
+      file:
+        path: /srv/gitlab/logs
+        state: directory
+    - name: Create /srv/gitlab/data
+      file:
+        path: /srv/gitlab/data
+        state: directory
+
