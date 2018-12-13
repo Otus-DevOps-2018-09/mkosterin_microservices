@@ -1,5 +1,8 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## gitlab-ci-1 home work
+### Обязательная часть
+### Задание со *
 ## docker-4 home work
 ### Обязательная часть
 - изучена работа драйвером сети docker - none, bridge, host
