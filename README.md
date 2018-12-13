@@ -2,7 +2,15 @@
 mkosterin microservices repository
 ## gitlab-ci-1 home work
 ### Обязательная часть
+- развернул инсталляцию gitlab-ci, используя terraform, ansible, docker-compose
+- настроил gitlab-ci
+- создал группу/проект/репозиторий
+- настроил pipeline
+- создал, настроил runner
+- попробовал тестирование приложения reddit в pipeline
 ### Задание со *
+- продумал и написал скрипт автодеплоя runners в среде docker. Предусмотрена чистка окружения перед созданием раннеров, а также индивидуальные конфигурационные volume для раннеров
+- настроил интеграцию pipeline со slack чатом, канал для проверки: https://devops-team-otus.slack.com/messages/CDC5R0RJ9
 ## docker-4 home work
 ### Обязательная часть
 - изучена работа драйвером сети docker - none, bridge, host
