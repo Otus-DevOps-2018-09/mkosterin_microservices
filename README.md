@@ -1,5 +1,8 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## gitlab-ci-2 home work
+### обязательная часть
+### задание со *
 ## gitlab-ci-1 home work
 ### Обязательная часть
 - развернул инсталляцию gitlab-ci, используя terraform, ansible, docker-compose
