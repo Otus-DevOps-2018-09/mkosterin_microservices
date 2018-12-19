@@ -1,5 +1,17 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## monitoring-1 home work
+### обязательная часть
+- запущен prometheus
+- написан Dockerfile для включения свего конфига в prometheus
+- запущено reddit app с prometheus
+- подключен node-exporter для сбора метрик с докер-хоста
+- dockerhub https://cloud.docker.com/u/mkosterin/repository/docker/mkosterin/prometheus
+- dockerhub https://cloud.docker.com/u/mkosterin/repository/docker/mkosterin/post
+- dockerhub https://cloud.docker.com/u/mkosterin/repository/docker/mkosterin/comment
+- dockerhub https://cloud.docker.com/u/mkosterin/repository/docker/mkosterin/ui
+### задание со *
+- подключен мониторинг mongodb с помощью xendera/mongodb-exporter
 ## gitlab-ci-2 home work
 ### обязательная часть
 - настроил определение окружения dev с автовыкатыванием версий кода
