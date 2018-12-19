@@ -1,0 +1,8 @@
+---
+- import_playbook: base.yml
+- name: Install Docker
+  hosts: all
+  become: true
+  roles:
+    - docker
+
