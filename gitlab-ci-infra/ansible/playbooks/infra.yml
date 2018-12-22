@@ -1,0 +1,7 @@
+---
+- import_playbook: base.yml
+- import_playbook: docker.yml
+- import_playbook: gitlab-prepare.yml
+- import_playbook: gitlab-runner-prepare.yml
+- import_playbook: deploy.yml
+

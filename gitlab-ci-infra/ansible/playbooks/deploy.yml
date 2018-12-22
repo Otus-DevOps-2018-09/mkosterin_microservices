@@ -1,0 +1,11 @@
+---
+- name: Install gitlab-ci
+  hosts: all
+  gather_facts: False
+  become: true
+  tasks:
+    - name: copy docker-compose scenario
+      copy:
+        src: ../files/docker-compose.yml
+        dest: /srv/gitlab/docker-compose.yml
+  
