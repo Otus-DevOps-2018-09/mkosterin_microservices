@@ -1,5 +1,15 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## gitlab-ci-2 home work
+### обязательная часть
+- настроил определение окружения dev с автовыкатыванием версий кода
+- настроил окружение stage, prod с выкатыванием кнопкой
+- добавил условия и ограничения на запуск job
+- настроил динамическое окружение
+### задание со *
+- :-(
+### задание со **
+- :-(
 ## gitlab-ci-1 home work
 ### Обязательная часть
 - развернул инсталляцию gitlab-ci, используя terraform, ansible, docker-compose
