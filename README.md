@@ -1,5 +1,12 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## monitoring-2 home work
+### обязательная часть
+- настроен мониторинг docker контейнеров
+- установлена-настроена grafana
+- настроен сбор метрик с работы приложения и бизнес метрик
+- настроен и проверен алертинг в слак
+###
 ## monitoring-1 home work
 ### обязательная часть
 - запущен prometheus
