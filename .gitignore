@@ -16,4 +16,3 @@ vault.key
 .pytest_cache
 docker-monolith/infra/packer/variables.json
 .env
-
