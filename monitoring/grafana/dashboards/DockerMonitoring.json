@@ -294,9 +294,7 @@
       "tableColumn": "",
       "targets": [
         {
-          "expr": "min((node_filesystem_size{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"} - 
-node_filesystem_free{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"} )/ 
-node_filesystem_size{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"})",
+          "expr": "min((node_filesystem_size{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"} - node_filesystem_free{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"} )/ node_filesystem_size{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"})",
           "hide": false,
           "intervalFactor": 2,
           "refId": "A",
@@ -380,8 +378,7 @@ node_filesystem_size{fstype=~\"xfs|ext4\",instance=~\"$server:.*\"})",
       "tableColumn": "",
       "targets": [
         {
-          "expr": "((node_memory_MemTotal{instance=~\"$server:.*\"} - 
-node_memory_MemAvailable{instance=~\"$server:.*\"}) / node_memory_MemTotal{instance=~\"$server:.*\"}) * 100",
+          "expr": "((node_memory_MemTotal{instance=~\"$server:.*\"} - node_memory_MemAvailable{instance=~\"$server:.*\"}) / node_memory_MemTotal{instance=~\"$server:.*\"}) * 100",
           "intervalFactor": 2,
           "refId": "A",
           "step": 1800
@@ -548,8 +545,7 @@ node_memory_MemAvailable{instance=~\"$server:.*\"}) / node_memory_MemTotal{insta
       "tableColumn": "",
       "targets": [
         {
-          "expr": "node_load1{instance=~\"$server:.*\"} / count by(job, instance)(count by(job, instance, 
-cpu)(node_cpu{instance=~\"$server:.*\"}))",
+          "expr": "node_load1{instance=~\"$server:.*\"} / count by(job, instance)(count by(job, instance, cpu)(node_cpu{instance=~\"$server:.*\"}))",
           "intervalFactor": 2,
           "refId": "A",
           "step": 1800
@@ -742,8 +738,7 @@ cpu)(node_cpu{instance=~\"$server:.*\"}))",
           "step": 600
         },
         {
-          "expr": "sum(rate(container_cpu_system_seconds_total{name=~\".+\"}[1m])) + 
-sum(rate(container_cpu_system_seconds_total{id=\"/\"}[1m])) + sum(rate(process_cpu_seconds_total[1m]))",
+          "expr": "sum(rate(container_cpu_system_seconds_total{name=~\".+\"}[1m])) + sum(rate(container_cpu_system_seconds_total{id=\"/\"}[1m])) + sum(rate(process_cpu_seconds_total[1m]))",
           "hide": true,
           "intervalFactor": 2,
           "legendFormat": "",
@@ -862,8 +857,7 @@ sum(rate(container_cpu_system_seconds_total{id=\"/\"}[1m])) + sum(rate(process_c
       "steppedLine": false,
       "targets": [
         {
-          "expr": "node_load1{instance=~\"$server:.*\"} / count by(job, instance)(count by(job, instance, 
-cpu)(node_cpu{instance=~\"$server:.*\"}))",
+          "expr": "node_load1{instance=~\"$server:.*\"} / count by(job, instance)(count by(job, instance, cpu)(node_cpu{instance=~\"$server:.*\"}))",
           "intervalFactor": 2,
           "refId": "A",
           "step": 600
@@ -1914,8 +1908,7 @@ cpu)(node_cpu{instance=~\"$server:.*\"}))",
       ],
       "targets": [
         {
-          "expr": "sum(container_spec_memory_limit_bytes{name=~\".+\"} - container_memory_usage_bytes{name=~\".+\"}) by 
-(name) ",
+          "expr": "sum(container_spec_memory_limit_bytes{name=~\".+\"} - container_memory_usage_bytes{name=~\".+\"}) by (name) ",
           "hide": true,
           "intervalFactor": 2,
           "legendFormat": "{{name}}",
@@ -1990,8 +1983,7 @@ cpu)(node_cpu{instance=~\"$server:.*\"}))",
       ],
       "targets": [
         {
-          "expr": "sum(container_spec_memory_limit_bytes{name=~\".+\"} - container_memory_usage_bytes{name=~\".+\"}) by 
-(name) ",
+          "expr": "sum(container_spec_memory_limit_bytes{name=~\".+\"} - container_memory_usage_bytes{name=~\".+\"}) by (name) ",
           "hide": true,
           "intervalFactor": 2,
           "legendFormat": "{{name}}",
@@ -2066,8 +2058,7 @@ cpu)(node_cpu{instance=~\"$server:.*\"}))",
       ],
       "targets": [
         {
-          "expr": "sum(100 - ((container_spec_memory_limit_bytes{name=~\".+\"} - 
-container_memory_usage_bytes{name=~\".+\"}) * 100 / container_spec_memory_limit_bytes{name=~\".+\"}) ) by (name) ",
+          "expr": "sum(100 - ((container_spec_memory_limit_bytes{name=~\".+\"} - container_memory_usage_bytes{name=~\".+\"}) * 100 / container_spec_memory_limit_bytes{name=~\".+\"}) ) by (name) ",
           "intervalFactor": 2,
           "legendFormat": "{{name}}",
           "metric": "",
