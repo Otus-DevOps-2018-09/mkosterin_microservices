@@ -12,6 +12,8 @@ mkosterin microservices repository
 - https://cloud.docker.com/repository/docker/mkosterin/comment
 - https://cloud.docker.com/repository/docker/mkosterin/ui
 - https://cloud.docker.com/repository/docker/mkosterin/otus-reddit
+### Задания со *
+- написан Makefile, который сбоирает образы, загружает их на докерхаб, делает деплой и андеплой
 ###
 ## monitoring-1 home work
 ### обязательная часть
