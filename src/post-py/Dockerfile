@@ -5,6 +5,7 @@ ENV POST_DATABASE posts
 
 WORKDIR /app
 COPY . /app
+RUN apk add --no-cache gcc musl-dev
 RUN pip install -r /app/requirements.txt
 
 CMD ["python3", "post_app.py"]
