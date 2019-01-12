@@ -1,5 +1,20 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## monitoring-2 home work
+### обязательная часть
+- настроен мониторинг docker контейнеров
+- установлена-настроена grafana
+- настроен сбор метрик с работы приложения и бизнес метрик
+- настроен и проверен алертинг в слак
+- https://cloud.docker.com/repository/docker/mkosterin/alertmanager
+- https://cloud.docker.com/repository/docker/mkosterin/prometheus
+- https://cloud.docker.com/repository/docker/mkosterin/post
+- https://cloud.docker.com/repository/docker/mkosterin/comment
+- https://cloud.docker.com/repository/docker/mkosterin/ui
+- https://cloud.docker.com/repository/docker/mkosterin/otus-reddit
+### Задания со *
+- написан Makefile, который сбоирает образы, загружает их на докерхаб, делает деплой и андеплой
+###
 ## monitoring-1 home work
 ### обязательная часть
 - запущен prometheus
