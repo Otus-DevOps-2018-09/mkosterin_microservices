@@ -1,5 +1,13 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## logging-1 homework
+### Обязательная часть
+- написан код для создания инфраструктуры fluent, elasticsearch, kibana, zipkin
+- настроены фильтры в fluentd
+- настроен драйвер fluentd в контейнерах микросервисного приложения
+- собраны структурированные и не структурированные логи
+- подключен zipkin для распределенного трейсинга
+###
 ## monitoring-2 home work
 ### обязательная часть
 - настроен мониторинг docker контейнеров
