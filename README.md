@@ -1,5 +1,14 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## kubernetes-1 homework
+### Обязательная часть
+- написаны deployments для post, ui, comment, mongo
+- пройден Kubernetes the hard way. В ходе работы столкнулся с ограничением триального режима на 4 хоста, поэтому нода воркер была только одна
+- прогнал kubectl apply -f по deployments
+- удалил кластер
+- поместил все созданные файлы в каталог kubernetes/the_hard_way
+### Задания со *
+
 ## logging-1 homework
 ### Обязательная часть
 - написан код для создания инфраструктуры fluent, elasticsearch, kibana, zipkin
