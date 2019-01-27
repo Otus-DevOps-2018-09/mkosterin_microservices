@@ -10,7 +10,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: reddit 
+      app: reddit
       component: ui
   template:
     metadata:
@@ -27,5 +27,4 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
-
 
