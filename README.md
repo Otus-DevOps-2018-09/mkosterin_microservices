@@ -1,5 +1,21 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## kubernetes-2 homework
+### obligatory part
+- kubectl utility has been installed
+- minikube has been installed
+- ~/.kube/config was checked
+- ui-deployment.yml, post-deployment.yml, comment-deployment.yml, mongo-deployment.yml have been refactored
+- \*-service.yml have been written
+- ui-service.yml for external access has been written with NodePort option
+- minikube dashboard was studied
+- the namespace "dev" was created and studied
+- the reddit application was started in "dev' namespace
+- kubernetes cluster with two worker nodes has been created in GKE
+- kubectl has been reconfigured for new cluster in GKE
+- the dashboard has been configured in GKE
+### extra part
+-
 ## kubernetes-1 homework
 ### Обязательная часть
 - написаны deployments для post, ui, comment, mongo
