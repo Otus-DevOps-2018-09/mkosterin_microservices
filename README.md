@@ -1,5 +1,17 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## kubernetes-3 homework
+### obligatory part
+- some tests with kube-dns has been made
+- LoadBalancer type has been used
+- Ingress and IngressController with L7 have been tried
+- SSL cert has been added
+- NetworkPolicy has been enabled and tried for separate database from external network
+- PersistentVolume has been created and applied for mongo
+- PersistentVolumeClaim has been created and applied for mongo
+- Dynamic PersistentVolume and StorageClasses have been studied
+### extra part
+- k8s manifest with Secret object has been written
 ## kubernetes-2 homework
 ### obligatory part
 - kubectl utility has been installed
