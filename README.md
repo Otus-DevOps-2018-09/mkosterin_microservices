@@ -1,5 +1,23 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## kubernetes-4 homework
+### obligatory part
+- helm has been installed/configured
+- Charts structure with templates have been created for post, ui, comment
+- helm install/delete/upgrade command have been tried
+- requirements, variables, templates have been tried
+- \_helpers.tpl mechanism was applied for ui, post, comment services
+- requireents.yaml has been written
+- helm dep update 
+- GKE cluster was updated
+- GitLab has been installed/configured
+- test repos for ui, comment, post, reddit-deploy have been created and pushed into GitLab
+- .gitlab-ci.yml with build, test and release has been implemented
+- test environment by button has been implemented
+- button for cleanup test environments has been added
+- staging and production environments have been created
+### extra part
+-
 ## kubernetes-3 homework
 ### obligatory part
 - some tests with kube-dns has been made
