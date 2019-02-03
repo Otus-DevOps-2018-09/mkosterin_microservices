@@ -1,0 +1,9 @@
+---
+name: post
+version: 1.0.0
+Description: OTUS reddit application post
+maintainers:
+  - name: Maxim Kosterin
+    email: maxim@maxim.ru
+appVersion: 1.0
+
