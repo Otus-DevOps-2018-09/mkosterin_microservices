@@ -1,5 +1,18 @@
 # mkosterin_microservices
 mkosterin microservices repository
+## kubernetes-5 homework
+### obligatory part
+- nginx-ingress has been installed
+- prometheus has been installed and configured
+- labels, endpoints and metrics have been added
+- jobs post-endpoints, comment-endpoints, ui-endpoints have been made
+- grafana has been installed
+- kubernetes dashboard has been added
+- previous dashboards have been added
+- template and parameters have been added
+- efk/kibana have been installed
+## extra part
+- 
 ## kubernetes-4 homework
 ### obligatory part
 - helm has been installed/configured
